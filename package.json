@@ -1,0 +1,42 @@
+{
+    "name" : "strategy.js",
+    "description" : "Targets an existing method and allows you to create a pipeline of 'strategies' that are executed prior to the target.",
+    "version" : "0.0.1",
+    "homepage" : "http://github.com/ifandelse/strategy.js",
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/ifandelse/strategy.js.git"
+    },
+    "author" : "Jim Cowart (http://freshbrewedcode.com/jimcowart)",
+    "contributors": [
+        {
+            "name"  : "Jim Cowart",
+            "email" : "WhyNotJustComment@OnMyBlog.com",
+            "url"   : "http://freshbrewedcode.com/jimcowart"
+        }
+    ],
+    "keywords": [
+        "strategy",
+        "pipeline"
+    ],
+    "bugs" : {
+        "email" : "PleaseJustUseTheIssuesPage@github.com",
+        "url" : "http://github.com/ifandelse/strategy.js/issues"
+    },
+    "directories" : { "lib" : "lib" },
+    "main" : "lib/strategy.js",
+    "engines" : {
+        "node" : ">=0.4.0"
+    },
+    "dependencies" : { },
+    "licenses" : [
+        {
+            "type" : "MIT",
+            "url" : "http://www.opensource.org/licenses/mit-license.php"
+        },
+        {
+            "type" : "GPL",
+            "url" : "http://www.opensource.org/licenses/gpl-3.0.html"
+        }
+    ]
+}

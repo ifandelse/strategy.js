@@ -1,0 +1,13 @@
+{
+	"anvil.uglify" : { "all" :true },
+	"httpPaths": {
+		"/": "./"
+	},
+	"output": {
+		"full": "lib",
+		"partial": {
+			"/lib/strategy.js" : [ "/example/strategy/js" ]
+		}
+	},
+	"dependencies": [ "anvil.uglify" ]
+}

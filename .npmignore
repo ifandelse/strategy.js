@@ -1,0 +1,12 @@
+example
+node_modules*
+spec
+src
+ext
+.gitignore
+.idea
+build.json
+header.js
+.anvil
+component.json
+.npmignore

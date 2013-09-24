@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" href="../ext/mocha.css" />
+</head>
+<body>
+<div id="mocha"></div>
+<script type="text/javascript" src="../ext/jquery.js"></script>
+<script type="text/javascript" src="../ext/expect.js"></script>
+<script type="text/javascript" src="../ext/mocha.js"></script>
+<script type="text/javascript">
+    mocha.setup({ ui: 'bdd', timeout: 60000 });
+</script>
+<script type="text/javascript" src="../lib/strategy.js"></script>
+<script type="text/javascript" src="strategy.spec.js"></script>
+<script type="text/javascript">
+    mocha.run();
+</script>
+</body>
+</html>
+
+
